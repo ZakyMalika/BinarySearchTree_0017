@@ -35,5 +35,9 @@ public:
 		newNode->rightchild = nullptr; // make the right child of the node point to null
 
 		Node* parent = nullptr;
+		Node* currentNode = nullptr;
+		search(element, parent, currentNode); // locate the node which be parent of the node to be inserted
+
+		if (parent == nullptr) // mark the new node as root 
 	}
 };
