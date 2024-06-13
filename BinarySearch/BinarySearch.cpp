@@ -32,6 +32,6 @@ public:
 		Node* newNode = new Node(element, nullptr, nullptr); // Allocate memory for thhe new Node
 		newNode->info = element;	//assign value to the data field of the new data
 		newNode->leftchild = nullptr; // make the left child of the new node point to null
-		newNode->rightchild = nullptr;
+		newNode->rightchild = nullptr; // make the right child of the node point to null
 	}
 };
