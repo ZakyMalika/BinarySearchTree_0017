@@ -6,7 +6,7 @@ class  Node
 {
 public:
 	string info;
-	Node* leftchild;
+	Node* leftchild; 
 	Node* rightchild; 
 
 	// Constructor for the node class
