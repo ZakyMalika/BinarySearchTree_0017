@@ -100,7 +100,7 @@ public:
 			preorder(ptr->rightchild);
 		}
 	}
-	void postorder(Node* ptr)
+	void postorder(Node* ptr) 
 	{
 		if (ROOT == NULL)
 		{
